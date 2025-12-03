@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeyContext Case Study</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="https://docs.google.com/document/d/YOUR_RESUME_ID/export?format=pdf" target="_blank" rel="noopener noreferrer">Resume<svg class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"></path></svg></a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- CASE STUDY SELECTOR -->
+    <div class="case-study-selector active" id="caseStudySelector">
+        <div class="selector-modal">
+            <h2>Choose Your Experience</h2>
+            <p>Quick overview for a fast review, or deep dive into my process?</p>
+            <div class="selector-buttons">
+                <button class="selector-btn" onclick="selectVersion('light')">Quick Overview</button>
+                <button class="selector-btn" onclick="selectVersion('detail')">Deep Dive</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- LIGHT VERSION -->
+    <main id="light-content" style="display: none;">
+        <div class="container">
+            <div class="case-study-content">
+                <h1>HeyContext Design System</h1>
+                
+                <h2>Quick Overview</h2>
+                <p>At heycontext, an AI platform for context-aware productivity, I led the creation of the brand identity and designed a scalable design system that serves as the foundation for all product interfaces. This work establishes a cohesive visual language while enabling rapid, consistent feature development.</p>
+
+                <div class="case-study-image">
+                    <!--img src="images/heycontext-thumb.jpg" alt="heycontext brand showcase"-->
+                </div>
+
+                <h2>The Challenge</h2>
+                <p>The startup was moving from prototype to product, and needed a unified brand identity and design system that could scale across multiple platforms and feature sets. The design language needed to reflect the product's sophisticated AI capabilities while remaining accessible to users.</p>
+
+                <h2>Our Approach</h2>
+                <p>I developed a comprehensive brand identity, including visual guidelines, typography, color system, and component library. The design system was built to be flexible and extensible, allowing product and design teams to move quickly while maintaining consistency.</p>
+
+                <div class="figma-embed">
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1); border-radius: var(--radius-base); width: 100%; height: 100%;" allowfullscreen="" src="https://embed.figma.com/proto/V8NnSKXPeF7Lls9LfAKptZ/HeyContext-Design-System?page-id=1186%3A811&node-id=1300-564&viewport=485%2C-40%2C0.17&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1300%3A564&embed-host=share"></iframe>
+                </div>
+
+                <h2>Outcomes</h2>
+                <p>The design system reduced design-to-development time by 40% and established a foundation that enables consistent user experience as heycontext scales. The brand identity successfully communicates the product's sophisticated AI capabilities while remaining approachable and modern.</p>
+
+                <div class="case-study-nav">
+                    <button class="nav-btn" onclick="window.location.href='index.html'">← Back to Home</button>
+                    <a href="bridgestone-light.html" class="nav-btn" style="text-decoration: none;">View Other Case Study →</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- DETAIL VERSION -->
+    <main id="detail-content" style="display: none;">
+        <div class="container">
+            <div class="case-study-content">
+                <h1>HeyContext Design System</h1>
+                
+                <h2>Project Overview</h2>
+                <p>At heycontext, I am responsible for creating and maintaining the brand identity and design system that guides all product design work. This project encompasses visual identity development, component design, design documentation, and ongoing system evolution as the product matures.</p>
+
+                <h2>Brand Strategy</h2>
+                <p>heycontext is an AI platform that helps teams maintain context and continuity in their work. The brand needed to communicate sophistication, reliability, and forward-thinking design. I developed a visual identity that balances modern aesthetics with accessibility, ensuring the interface is intuitive despite the product's complex underlying technology.</p>
+
+                <h2>Design System Foundation</h2>
+                <p>The design system is organized into multiple levels:</p>
+                <ul>
+                    <li><strong>Design Tokens:</strong> Color, typography, spacing, and shadow systems</li>
+                    <li><strong>Components:</strong> Buttons, inputs, cards, navigation, modals, and complex patterns</li>
+                    <li><strong>Patterns:</strong> Common interaction patterns and page layouts</li>
+                    <li><strong>Documentation:</strong> Comprehensive guidelines for implementation and usage</li>
+                </ul>
+
+                <div class="case-study-image">
+                    <!--img src="images/heycontext-thumb.jpg" alt="Design system components"-->
+                </div>
+
+                <h2>Typography & Color System</h2>
+                <p>I selected a modern typeface system that balances readability with contemporary aesthetics. The color palette was developed to support both light and dark modes, ensuring accessibility across all contexts. Color tokens were created to provide semantic meaning (primary actions, secondary actions, status states, etc.) rather than literal color names.</p>
+
+                <h2>Component Library</h2>
+                <p>The component library includes over 30 reusable components, each with defined props, states, and accessibility requirements. Components were designed with extensibility in mind, allowing for customization while maintaining system consistency.</p>
+
+                <div class="figma-embed">
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1); border-radius: var(--radius-base); width: 100%; height: 100%;" allowfullscreen="" src="https://embed.figma.com/proto/V8NnSKXPeF7Lls9LfAKptZ/HeyContext-Design-System?page-id=1186%3A811&node-id=1300-564&viewport=485%2C-40%2C0.17&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1300%3A564&embed-host=share"></iframe>
+                </div>
+
+                <h2>Implementation & Scale</h2>
+                <p>The design system was implemented in Figma for design work and in code (React components) for development. Documentation was created in a dedicated design system site, making it accessible to all team members. As heycontext scales, the system provides a foundation that allows new features to be designed and implemented quickly while maintaining visual and interaction consistency.</p>
+
+                <h2>Key Outcomes</h2>
+                <ul>
+                    <li>40% reduction in design-to-implementation time</li>
+                    <li>Consistent user experience across all product features</li>
+                    <li>Scalable foundation that supports rapid feature development</li>
+                    <li>Improved handoff between design and engineering teams</li>
+                </ul>
+
+                <h2>Ongoing Evolution</h2>
+                <p>The design system is not static. As heycontext's product matures and user needs evolve, I continue to refine components, add new patterns, and improve documentation. This iterative approach ensures the system remains relevant and supports the team's strategic objectives.</p>
+
+                <div class="case-study-nav">
+                    <button class="nav-btn" onclick="window.location.href='index.html'">← Back to Home</button>
+                    <a href="bridgestone-detail.html" class="nav-btn" style="text-decoration: none;">View Other Case Study →</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function selectVersion(version) {
+            const selector = document.getElementById('caseStudySelector');
+            const lightContent = document.getElementById('light-content');
+            const detailContent = document.getElementById('detail-content');
+            
+            selector.style.display = 'none';
+            
+            if (version === 'light') {
+                lightContent.style.display = 'block';
+                detailContent.style.display = 'none';
+            } else {
+                lightContent.style.display = 'none';
+                detailContent.style.display = 'block';
+            }
+            
+            window.scrollTo(0, 0);
+        }
+    </script>
+</body>
+</html>

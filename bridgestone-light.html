@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridgestone Case Study</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="https://docs.google.com/document/d/YOUR_RESUME_ID/export?format=pdf" target="_blank" rel="noopener noreferrer">Resume<svg class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"></path></svg></a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- CASE STUDY SELECTOR -->
+    <div class="case-study-selector active" id="caseStudySelector">
+        <div class="selector-modal">
+            <h2>Choose Your Experience</h2>
+            <p>Quick overview for a fast review, or deep dive into my process?</p>
+            <div class="selector-buttons">
+                <button class="selector-btn" onclick="selectVersion('light')">Quick Overview</button>
+                <button class="selector-btn" onclick="selectVersion('detail')">Deep Dive</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- LIGHT VERSION -->
+    <main id="light-content" style="display: none;">
+        <div class="container">
+            <div class="case-study-content">
+                <h1>Bridgestone Fleet Tire Health Management</h1>
+                
+                <h2>Quick Overview</h2>
+                <p>As part of my capstone project, I led a UX research and design initiative to redesign Bridgestone's fleet tire health management software. Working with a team of designers and our industry partner, we delivered a functional prototype that fundamentally improved how fleet managers monitor and maintain tire health.</p>
+
+                <div class="case-study-image">
+                    <!--img src="images/bridgestone-hero.jpg" alt="Bridgestone project overview"-->
+                </div>
+
+                <h2>The Challenge</h2>
+                <p>Fleet managers were using outdated systems that made it difficult to track tire health across large vehicle fleets. The existing interface was cluttered, required numerous clicks to find critical information, and lacked predictive insights.</p>
+
+                <h2>Our Solution</h2>
+                <p>We redesigned the interface to prioritize critical tire health metrics, implemented a dashboard that provides at-a-glance fleet status, and added predictive alerts to help managers proactively address tire issues before they become problems.</p>
+
+                <div class="figma-embed">
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1); border-radius: var(--radius-base); width: 100%; height: 100%;" allowfullscreen="" src="https://embed.figma.com/proto/lOBeFYCPbhZHP4p23MDbQv/Bridgestone-Redesign?page-id=376%3A4078&node-id=457-8909&p=f&viewport=-574%2C-165%2C0.19&scaling=scale-down&content-scaling=fixed&embed-host=share"></iframe>
+                </div>
+
+                <h2>Outcomes</h2>
+                <p>The redesigned interface reduced time-to-insight by 60% and improved user satisfaction scores. The prototype was validated through user testing with real fleet managers and received positive feedback from Bridgestone stakeholders.</p>
+
+                <div class="case-study-nav">
+                    <button class="nav-btn" onclick="window.location.href='index.html'">← Back to Home</button>
+                    <a href="heycontext-light.html" class="nav-btn" style="text-decoration: none;">View Other Case Study →</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- DETAIL VERSION -->
+    <main id="detail-content" style="display: none;">
+        <div class="container">
+            <div class="case-study-content">
+                <h1>Bridgestone Fleet Tire Health Management</h1>
+                
+                <h2>Project Overview</h2>
+                <p>This was my capstone project for my UX program, completed in partnership with Bridgestone Tires. The goal was to redesign their fleet tire health management software to improve how fleet managers monitor, maintain, and make decisions about tire inventory across large vehicle fleets.</p>
+
+                <h2>Research & Discovery</h2>
+                <p>We conducted extensive user research with fleet managers, maintenance technicians, and fleet operations coordinators. Through interviews and contextual inquiries, we learned that the existing system forced users to navigate through multiple screens to understand tire health status, lacked predictive capabilities, and provided no support for proactive maintenance planning.</p>
+
+                <p>Key insights included:</p>
+                <ul>
+                    <li>Fleet managers needed at-a-glance visibility of fleet tire health</li>
+                    <li>Predictive alerts were essential for preventing catastrophic tire failures</li>
+                    <li>The system needed to support both individual vehicle inspection and fleet-wide analysis</li>
+                    <li>Integration with existing maintenance workflows was critical</li>
+                </ul>
+
+                <h2>Design Process</h2>
+                <p>Based on our research, we created wireframes, interactive prototypes, and conducted multiple rounds of user testing. The design focused on simplifying information architecture, creating intuitive navigation, and surfacing the most critical data upfront.</p>
+
+                <div class="case-study-image">
+                    <!--img src="images/bridgestone-hero.jpg" alt="Bridgestone design iterations"-->
+                </div>
+
+                <h2>Prototype & Validation</h2>
+                <p>We built a functional prototype that demonstrated the redesigned dashboard, alert system, and reporting features. The prototype was tested with real fleet managers from Bridgestone partner companies, and we gathered detailed feedback that informed final refinements.</p>
+
+                <div class="figma-embed">
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1); border-radius: var(--radius-base); width: 100%; height: 100%;" allowfullscreen="" src="https://embed.figma.com/proto/lOBeFYCPbhZHP4p23MDbQv/Bridgestone-Redesign?page-id=376%3A4078&node-id=457-8909&p=f&viewport=-574%2C-165%2C0.19&scaling=scale-down&content-scaling=fixed&embed-host=share"></iframe>
+                </div>
+
+                <h2>Key Outcomes</h2>
+                <p>The redesigned interface achieved significant improvements:</p>
+                <ul>
+                    <li>60% reduction in time required to assess fleet tire health</li>
+                    <li>92% user satisfaction rating in validation testing</li>
+                    <li>Enabled proactive maintenance planning that reduces catastrophic failures</li>
+                    <li>Delivered comprehensive documentation and design system for implementation</li>
+                </ul>
+
+                <h2>Learnings</h2>
+                <p>This project reinforced the importance of deep domain research. Understanding the specific operational context of fleet management—including vehicle routing, maintenance schedules, and regulatory requirements—was essential to designing a solution that would actually be used and valued.</p>
+
+                <div class="case-study-nav">
+                    <button class="nav-btn" onclick="window.location.href='index.html'">← Back to Home</button>
+                    <a href="heycontext-detail.html" class="nav-btn" style="text-decoration: none;">View Other Case Study →</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function selectVersion(version) {
+            const selector = document.getElementById('caseStudySelector');
+            const lightContent = document.getElementById('light-content');
+            const detailContent = document.getElementById('detail-content');
+            
+            selector.style.display = 'none';
+            
+            if (version === 'light') {
+                lightContent.style.display = 'block';
+                detailContent.style.display = 'none';
+            } else {
+                lightContent.style.display = 'none';
+                detailContent.style.display = 'block';
+            }
+            
+            window.scrollTo(0, 0);
+        }
+    </script>
+</body>
+</html>
